@@ -1,0 +1,495 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    height: 11vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 14vw 0 14vw ;
+}
+i:hover{
+    color: coral;
+}
+#section1{
+    min-height: 87vh;
+
+    background-color: #dcdcdc;
+    display: flex;
+    justify-content: flex-end;
+
+}
+#div1{
+   width: 30%;
+   padding-top: 100px;
+}
+#div2{
+    width: 55%;
+    height: 650px;
+    background-size: cover;
+    background-image: url(Shopping.jpg);
+    background-repeat: no-repeat;
+}
+#div1 h1{
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: 2px;
+}
+#div1 p{
+    font-size: 22px;
+    line-height: 34px;
+    margin-top: 35px;
+}
+#div1 h2{
+    font-size: 25px;
+    font-weight: 600;
+    margin-top: 40px;
+    letter-spacing:1px ;
+}
+#div1 button{
+    margin-top: 30px;
+    height: 60px;
+    width: 210px;
+    font-size: 25px;
+    color: white;
+    background-color:#ee2677 ;
+    border: none;
+    border-radius: 7px;
+}
+#div1 button:hover{
+    background-color: black;
+}
+#div3{
+    height: 400px;
+    background-color: #d9d9d9;
+    font-size: 60px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-align: center;
+    padding-top: 90px;
+}
+#section2{
+    height: 115vh;
+    /* background-color:bisque; */
+}
+#div4{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 9vw;
+    margin-top: -10vh;
+}
+#div4 div{
+    height: 50vh;
+    width: 19vw;
+    border-radius: 12px;
+    background-color: white;
+}
+.circle{
+    height: 120px;
+    width:120px ;
+    border-radius: 50%;
+    margin: 30px auto;
+}
+#div4 :nth-child(1) :nth-child(1){
+    background-image: linear-gradient(#e73d71, #ee7399);
+}
+#div4 :nth-child(2) .circle{
+    background-color: #4fbdc0;
+}
+#div4 :nth-child(3) .circle{
+    background-color: #84a6d5;
+}
+#div4 :nth-child(4) .circle{
+    background-color: #eb9958;
+}
+#div4 img{
+    position: relative;
+    bottom: 95px;
+    left: 50px;
+}
+#div4 h2{
+    text-align: center;
+    position: relative;
+    bottom: 80px;
+}
+#div4 p{
+    text-align: center;
+    position: relative;
+    bottom: 67px;
+}
+#section2 button{
+    margin-top: 50px;
+    margin-left: 43vw;
+    height: 60px;
+    width: 210px;
+    font-size: 20px;
+    color: black;
+    border-color: black;
+    background-color:white;
+    border-radius: 7px;
+}
+#section2 button:hover{
+    background-color: black;
+    color: white;
+}
+#section3{
+    height: 115vh;
+    /* background-color: bisque; */
+    font-size: 60px;
+    text-align: center;
+    padding-top: 10vh;
+}
+#section3 :nth-child(1){
+    height: 33vh;
+    width: 37vh;
+    background-color: #e73d71;
+    color: #fff;
+    border-radius: 25px;
+    position: relative;
+    left: 41vw;
+    top: 7vh;
+    padding-top: 55px;
+}
+#section3 :nth-child(2){
+    height: 55vh;
+    width: 27vw;
+    border-radius: 20px;
+    background-color: #4fbdc0;
+    color: #fff;
+    position: relative;
+    left: 11vw;
+    bottom: 21vh;
+    padding-top: 120px;
+
+}
+#section3 :nth-child(3){
+    height: 55vh;
+    width: 27vw;
+    border-radius: 20px;
+    background-color:#5c82b8;
+    color: #fff;
+    position: relative;
+    left: 62vw;
+    bottom: 76vh;
+    padding-top: 120px;
+
+}
+#section3 :nth-child(4){
+    height: 33vh;
+    width: 37vh;
+    background-color:black;
+    color: #fff;
+    border-radius: 25px;
+    position: relative;
+    left: 41vw;
+    bottom: 90vh;
+    padding-top: 55px;
+} 
+#section3 div {
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+#section4{
+    height: 420px;
+    background-color:#e73d71;
+}
+#section4 h1{
+    font-size: 70px;
+    font-weight:75;
+    font-family: sans-serif;
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+}
+#section4 p{
+    font-size: 25px;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+    /* letter-spacing: 1px; */
+    line-height: 35px;
+}
+#section4 div{
+    height: 12vh;
+    width: 60vw;
+    background-color:rgb(236, 233, 233);
+    margin-left: 300px;
+    margin-top:30px;
+    border-radius:8px;
+    font-size: 20px;
+}
+#section4 input{
+    height: 6vh;
+    width: 20vw;
+    margin-top: 17px;
+    margin-left: 10px;
+    border-style: none;
+    border-radius: 5px;
+}
+#section4 button{
+    height: 6vh;
+    width: 9vw;
+    color:white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #e73d71;
+    border-style: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+#section5{
+    background-color: rgb(58, 56, 56);
+    height: 125vh;
+}
+#section5 h1{
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+    letter-spacing: 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#section5 p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: sans-serif;
+    padding-top: 25px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+#div5{
+    display: flex;
+    justify-content: space-around;
+    padding: 13vh 12vw 0 12vw;
+}
+#div5 div{
+    height: 65vh;
+    width: 23vw;
+    background-color: #fff;
+    border-radius: 25px;
+}
+#div5 div img{
+    border: #fff solid 10px;
+    border-radius: 50%;
+    margin-left: 4vw;
+    margin-top: -4vh;
+}
+#div5 h2{
+    margin-top: 3vh;
+    text-align: center;
+    font-family: sans-serif;
+}
+#div5 p{
+    color: black;
+    text-align: left;
+    line-height: 40px;
+    position: relative;
+    left: 30px;
+    font-weight:300 ;
+}
+#section6{
+    height: 650px;
+    background-color:#e73d71;
+    color: white;
+}
+#section6 h1{
+    font-size: 60px;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 80;
+    letter-spacing: 3px;
+    padding-top: 90px;
+}
+#section6 p{
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    line-height: 35px;
+    margin-top: 30px;
+}
+#div6{
+    display: flex;
+    justify-content: space-around;
+    padding: 0 190px 0 190px;
+    padding-top: 70px;
+
+}
+#section6 #div6 div{
+    height: 150px;
+    width: 250px;
+    /* background-color: #dcdcdc; */
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 35px;
+}
+#section6 button{
+    height: 60px;
+    width: 210px;
+    font-size: 20px;
+    color: white;
+    border: white solid;
+    background: transparent;
+    border-radius: 7px;
+    margin-left: 43vw;
+    margin-top: 30px;
+}
+#section6 button:hover{
+    color: #e73d71;
+    background-color: white;
+}
+#section7{
+    height: 90vh;
+}
+#section7 h1{
+    text-align: center;
+    font-size: 55px;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    padding-top:8vh;
+}
+#section7 #main{
+    display: flex;
+    justify-content: space-around;
+    padding: 15vh 12vw 0 12vw;
+}
+#section7 #main div{
+    height: 42vh;
+    width: 23vw;
+    background-color: #4fbdc0;
+    border-radius: 0 0 25px 25px;
+}
+#section7 #main img{
+    border-radius: 50%;
+    position: relative;
+    left: 6vw;
+    top: -8vh;
+    border: solid 20px white;
+}
+#section7 #main :nth-child(1){
+    background-color:#5c82b8;
+}
+#section7 #main .lastdiv{
+    background-color:#e73d71;
+}
+#section7 #main h3{
+    color: white;
+    text-align: center;
+    margin-top: -5vh;
+}
+#section7 #main p{
+    text-align: center;
+    margin-top: 5vh;
+    font-size: 18px;
+    line-height: 25px;
+    color: white;
+}
+#section8{
+    height: 130vh;
+    background-color: rgb(58, 56, 56);
+    color: white;
+}
+#section8 h1{
+    text-align: center;
+    font-size: 60px;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    padding-top: 7vh;
+}
+#section8 h1 span{
+    font-weight: 100;
+}
+#section8 p{
+    text-align: center;
+    padding-top: 3vh;
+    font-size: 18px;
+}
+#section8 #main{
+    display: flex;
+    justify-content: space-around;
+    padding: 8vh 11vw 0 11vw;
+}
+#section8 .maindiv{
+    height: 72vh;
+    width: 49vh;
+    background-color: #eb9958;
+    border-radius: 15px;
+    padding: 0 0vw 0 3vw;
+}
+#section8 .maindiv p{
+    font-size: 20px;
+    line-height: 45px;
+    position: relative;
+    right: 2vw;
+}
+#section8 .maindiv button{
+    height: 8vh;
+    width: 13vw;
+    position: relative;
+    left: 2vw;
+    top: 4vh;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 300;
+}
+#section8 .maindiv button:hover{
+    border: solid 2px #fff;
+    background: transparent;
+    color: #fff;
+}
+#section8 :nth-child(3){
+    background-color: ;
+}
+
+
+
+
+#section8 .subdiv{
+    height: 25vh;
+    width: 36vh;
+    border-radius: 10px;
+    background-color: #fff;
+    color: black;
+    position: relative;
+    top: -4vh;
+    border-top:10px solid #5c82b8;
+}
+.maindiv .subdiv{
+    text-align: center;
+}
+.maindiv .subdiv h2{
+    font-size: 25px;
+    font-weight: 200;
+    padding-top: 5vh;
+}
+.maindiv .subdiv h3{
+    font-size: 65px;
+    font-weight: 400;
+    padding-top: 2vh;
+}
+@media screen and (max-width: 768px) {
+    #section1{
+        flex-direction: column;
+        min-height: 87vh;
+        background-color: #dcdcdc;
+        display: flex;
+        justify-content: center;
+    }
+    #div1{
+        width: 100%;
+        padding-top: 100px;
+     }
+     #div2{
+        width: 100%;
+        height: 650px;
+        background-size: cover;
+        background-image: url(Shopping.jpg);
+        background-repeat: no-repeat;
+    }
+
+}
